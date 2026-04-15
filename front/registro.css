@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),url('./img/fundo.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGO */
+.logo {
+  width: 362px;
+  margin-bottom: 30px;
+}
+
+/* FORM */
+.form {
+  width: 90%;
+  max-width: 350px;
+  margin-left: 24px;
+   background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+  padding: 13px;
+}
+
+/* INPUTS */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+}
+
+/* BOTÃO */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #00bfff, #0066ff);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* LINK */
+.link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.link a {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 500px) {
+  .logo {
+    width: 293px;
+  }
+}
